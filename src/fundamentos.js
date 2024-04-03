@@ -86,3 +86,75 @@ console.log(studentName.length)
 
 const nelson = 'Nelson Pereira Santos Moraes'
 console.log(nelson.indexOf("Santos"))
+
+
+//O .slice ele elimina as letras a partir de numeros q vc quer exemplo:
+const nomeral = 'Pedro Chagas Jungle '
+console.log(nomeral.slice(6,12))
+
+//métodos array
+
+//método .unshift adiciona um novo elemento no começo do array
+
+//método .push adiciona um novo elemento no final do array 
+
+//shift remove o primeiro item do array
+
+
+// Objetos
+
+const product = {
+    name: 'camiseta',
+    price: 120,
+    inStock: true,
+    sizes: ['p','m','g']
+}
+
+console.log(product.name)
+console.log(product.price)
+console.log(product.inStock)
+console.log(product.sizes)
+
+//destructing
+const {inStock, price} = product
+console.log(price)
+console.log(inStock)
+
+//JSON 
+const dog = {
+    name:'rex',
+    age: 3,
+    breed: 'black'
+}
+//const jpsonP = JSON.parse(dog)
+//stringify formata 
+const jsonSt = JSON.stringify(dog)
+//parse reseta 
+const jsonReset = JSON.parse(jsonSt)
+console.log(jsonSt)
+console.log(jsonReset)
+
+
+
+//number
+const moeda = 10.4567
+console.log(moeda.toFixed(1))
+
+
+//Data
+const date = new Date()
+console.log(date)
+
+//operadores
+const a = 10
+const b = 20
+
+//aritimedicos
+const soma = a + b
+const subt = a - b
+const mult = a * b
+const div = a / b
+const por = a % b
+console.log(soma,subt, mult,div,por, 'ari')
+
+//incremento e decremento
