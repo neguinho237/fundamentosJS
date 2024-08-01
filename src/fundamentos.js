@@ -158,3 +158,5 @@ const por = a % b
 console.log(soma,subt, mult,div,por, 'ari')
 
 //incremento e decremento
+
+const bala = 2 
